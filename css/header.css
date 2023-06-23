@@ -1,0 +1,32 @@
+#main-video {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__logo {
+  filter: invert(1);
+  margin: 0 30px;
+  max-width: 70px;
+}
+
+.menu__elements {
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+  margin-top: 15px;
+}
+
+.menu__link {
+  color: var(--texto-menu);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+}
